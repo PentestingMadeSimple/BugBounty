@@ -1,27 +1,31 @@
-# BugBounty
-Script Per il Canale youtube PentestinMadeSimple  
+# BB
+
+
 
 bb e' uno script in bash che automatizza l'installazione dei piu comuni tool per bug bounty e per web app pentesting.
 
-# ToolsUsati
+# Tools Installati
 
-dirsearch
-knockpy
-lazys3
-recon_profile
-sqlmap-dev
-Sublist3r
-virtual-host-discovery
-wpscan
-Massdns
-Unfurl
-Waybackurls
-Httprobe
+Assetfinder                                                            
+Httprobe                                                                 
+Aquatone                                                    
+httpx                                                       
+dirsearch                                                                                                                        
+ffuf                                                                                                                  
+sqlmap-dev  
+Subfinder                                                         
+Sublist3r                                                                                                             
+wpscan                                                      
+Massdns   
+Masscan                                                       
+Unfurl                           
+Waybackurls             
+Arjun                                                                                                                   
 Seclists collection
 
 # Utilizzo
 
 ```git clone https://github.com/rea94/bb.git
 cd bb
-chmod +x install.sh
-./install.sh```
+chmod +x bb.sh
+./bb.sh```
