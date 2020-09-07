@@ -155,6 +155,8 @@ cat dns-Jhaddix.txt | head -n -14 > clean-jhaddix-dns.txt
 cd ~/tools/
 echo "-- Operazione Eseguita"
 sleep 2
-
+cd ~
+mv -t tools/ bin/ pkg/ src/
+cd ~/tools/
 echo -e "\n\n\n\n\n\n\n\n\n\n\Operazione Eseguita! Sembra che tutti i scripts siano stati installati correttamente in ~/tools"
 ls -la
