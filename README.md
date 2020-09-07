@@ -1,7 +1,3 @@
-# Brute
-
-brute è il piccolo script creato nel primo video, è semplicemente un subdomain brute force scritto in bash.
-
 # BB
 
 bb è uno script in bash che automatizza l'installazione dei più comuni tool per bug bounty e per web app pentesting.
